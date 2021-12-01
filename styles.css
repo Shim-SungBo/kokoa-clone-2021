@@ -2,46 +2,10 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "variables.css";
+@import "login.css";
+@import "nav-bar.css";
 
 body {
 	font-family: 'Nanum Myeongjo', serif;
-}
-
-.welcome-header{
-	margin: 90px 0px;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-.welcome-header__title{
-	margin-bottom: 25px;
-	font-size: 25px;
-}
-.welcome-header__text{
-	width: 60%;
-	opacity: 0.7;
-}
-#login-form{
-	display: flex;
-	flex-direction: column;
-	margin: 0px 30px;
-}
-#login-form input{
-	border: none;
-	padding: 15px 0px;
-	font-size: 18px;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-	margin-bottom: 23px;
-	transition: border-color: 0.7s ease-in-out;
-}
-#login-form input::placeholder {
-	color: rgba(0, 0, 0, 0.4);
-}
-a {
-	text-align: center;
-	margin-top: 5px;
-}
-#login-form input:focus{
-	border-color: var(--yellow);
+	height: 1000vh;
 }
