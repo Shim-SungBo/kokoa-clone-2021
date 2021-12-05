@@ -1,0 +1,25 @@
+.point{
+	background-color: #e54350;
+	width: 5px;
+	height: 5px;
+	border-radius: 2.5px;
+	display: flex;
+	direction: row;
+	position: absolute;
+	left: 75px;
+	bottom: 25px;
+}
+
+.fa-exclamation-circle{
+	color: tomato;
+}
+
+.more-point{
+	background-color: #e54350;
+	width: 5px;
+	height: 5px;
+	border-radius: 2.5px;
+	display: flex;
+	left: 125px;
+	bottom: 25px;
+}

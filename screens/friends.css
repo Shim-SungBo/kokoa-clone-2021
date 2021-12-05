@@ -1,11 +1,12 @@
 #friends-display__link{
 	text-align: center;
 	display: block;
-	background-color: #f9f9fa;
+	background-color: #fe697c;
 	padding: 17px 0px;
 	font-size: 18px;
 	font-weight: 550;
 	margin-bottom: 15px;
+	margin-top: -15px;
 }
 
 #friends-display__link i{
