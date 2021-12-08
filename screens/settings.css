@@ -1,4 +1,4 @@
-.settings__setting{
+.settings__setting {
 	padding: 20px; 0;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	font-size: 18px;
@@ -16,3 +16,23 @@
 .settings__setting-column:last-child{
 	opacity: 0.7;
 }
+
+.more-settings__setting{
+	padding: 20px; 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.more-settings__setting i {
+	opacity: 0.8;
+	margin-right: 20px;
+	font-size: 22px;
+}
+
+.more-settings__setting-column:last-child{
+	opacity: 0.7;
+}
+
