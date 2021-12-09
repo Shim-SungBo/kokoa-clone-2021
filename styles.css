@@ -20,6 +20,8 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 
+
+
 body {
 	color: #2e363e;
 	font-family: 'Nanum Myeongjo', serif;
@@ -30,3 +32,4 @@ body {
 .main-screen{
 	padding: 0px var(--horizontal-space);
 }
+
