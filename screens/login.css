@@ -38,11 +38,18 @@
 }
 
 #login-form input[type="submit"]{
-	background-color: var(--yellow);
+	background-color: #fffaf4;
 	cursor: pointer;
 	padding: 15px 0px;
 	border-radius: 8px;
 }
+
+#login-form input[type="text"],
+#login-form input[type="password"]{
+	background-color: #fffaf4;
+	border-radius: 8px;
+}
+
 #login-form a{
 	text-align: center;
 	text-decoration: none;

@@ -19,10 +19,23 @@
 	color: #2e363e;
 }
 
+@keyframes notificationAnimation{
+	0%{
+		transform: none;
+	}
+	50%{
+		transform: translatey(-5px) rotatey(360deg);
+	}
+	100%{
+		transform: none;
+	}
+}
+
 .nav__notification{
 	position: absolute;
 	left: 15px;
 	bottom: 15px;
+	animation: notificationAnimation 2s ease-in-out infinite;
 }
 .nav__dot{
 	background-color: #e54350;
@@ -33,4 +46,17 @@
 	position: absolute;
 	left: 35px;
 	bottom: 30px;
+}
+
+@keyframes appearBtnAnimation{
+	from{
+		transform: translatey(20px);		
+	}
+	to{
+		transform: none;
+	}
+}
+
+.nav__btn{
+	animation: appearBtnAnimation 1s ease-in-out;
 }
