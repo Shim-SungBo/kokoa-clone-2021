@@ -11,6 +11,7 @@
 @import "components/badge.css";
 @import "components/homework.css";
 @import "components/icon-row.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -25,7 +26,7 @@
 body {
 	color: #2e363e;
 	font-family: 'Nanum Myeongjo', serif;
-	height: 1000vh;
+	height: 100vh;
 	background-color: #ffa2a1;
 }
 

@@ -17,12 +17,24 @@
 
 .icon-row__icon i{
 	font-size: 35px;
-	color: #813581;
+	color: black;
+	opacity: 0.8;
 }
 
 .icon-row__sec{
 	display: block;
 }
+
 .opacity0{
 	opacity:0;
 }
+
+
+.icon-row__icon:hover i,
+.icon-row__icon:hover span{
+  color: #a8d1ff;
+  opacity: 1;
+}
+
+
+
