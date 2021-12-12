@@ -38,6 +38,19 @@
 	}
 }
 
+@keyframes splashAnimation{
+	0%{
+		transform: none;
+	}
+	50%{
+		transform: translatey(-5px) rotatey(360deg);
+	}
+	100%{
+		transform: none;
+	}
+}
+
+
 #splash-screen{
 	background-color: #f8c8dd;
 	position: absolute;
@@ -48,13 +61,15 @@
 	justify-content: center;
 	align-items: center;
 	font-size: 110px;
-	animation: hideSplashScreen 0.4s ease-in-out forwards;
+	animation: hideSplashScreen 0.8s ease-in-out forwards;
 	animation-delay: 1s;
 }
 
 #splash-screen img{
-	height: 120px;
-	width: 120px;
-	border-color: black;
+	height: 133px;
+	width: 133px;
+	border: 3px solid;
 	border-radius: 50%;
+	position: absolute;
+	animation: splashAnimation 2s ease-in-out infinite;
 }
